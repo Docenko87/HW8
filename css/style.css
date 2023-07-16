@@ -1,0 +1,132 @@
+.container{
+    margin: 70px;
+    border-radius: 10px;
+    background-color: #9FCDCD;
+    width: 600px;
+    height: 350px;
+}
+li{
+    list-style: none;
+    width: 90px;
+}
+p{
+    font-size: 15px;
+    font-weight: 100;
+}
+
+.main{
+    background-color: rgb(218, 111, 29);
+    text-transform: uppercase;
+    width: 450px;
+    height: 35px;
+    display: flex;
+    padding-left: 60px;
+    align-items: center;
+    color: #fff;
+    position: relative;
+    top: 40px;
+    left: -40px;
+}
+.help__block{
+    margin-top: 10px;
+}
+.row{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 60px;
+    left: 20px;
+    height: auto;
+    width: 330px;
+}
+.row__down{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 60px;
+    left: 20px;
+    width: 330px;
+    height: auto;
+    align-items: flex-end
+}
+.help__block{
+     color: #496F76;
+     font-size: 20px;
+}
+.form__control{
+    height: 30px;
+    font-size: 20px;
+    margin-top: 10px;
+    color: #0e0e0e ;
+    background-color: #A9D2D2;
+    border: 1px solid;
+}
+.form__control__type{
+ height: 30px;
+    font-size: 20px;
+    margin-top: 10px;
+    color: #0e0e0e ;
+    background-color: #A9D2D2;
+    border: 1px solid;
+    width: 82px;
+}
+
+
+.style__input{
+    background-color: #F5F5F5;
+    width: 900px;
+    height: 600px;
+    margin: 50px 70px 50px;
+}
+.container__style__inpyt{
+
+    height: 200px;
+    width: auto;
+    margin: 40px;
+}
+
+.text__content{
+    position: relative;
+    top: 10px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.text__control{
+    height: 30px;
+    width: 180px;
+}
+.text__valid{
+    height: 30px;
+    width: 180px;
+    border: 2px solid #4bb13d;
+    color: #4bb13d;
+}
+.text__invalid{
+    height: 30px;
+    width: 180px;
+    border: 2px solid #b53313;
+    color: #b53313;
+}
+.check__control{
+    position: relative;
+    top: 13px;
+
+}
+.checkbox{
+    display: flex;
+    flex-direction: row;
+}
+.radio__b{
+    position: relative;
+    top: 13px;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 13px;
+}
+.textarea__end{
+    position: relative;
+    top: 13px;
+}
